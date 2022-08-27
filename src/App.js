@@ -3,6 +3,8 @@
  import Header from "./components/Header/Header"
  import Intro from "./components/Intro/Intro"
  import Sobremim from "./components/Sobremim/Sobremim"
+ import Projects from "./components/Projects/Projects"
+ import Skil from "./components/Skills/Skil"
  import './App.css'
  export default ()=>{
     return(
@@ -10,6 +12,8 @@
         <Header/>
         <Intro/>
         <Sobremim/>
+        <Projects/>
+        <Skil/>
       </>
       
       

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: #111;
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.description{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+.description h1{
+    text-align: center;
+    color: #fff;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.03);
+    margin-top: 20px;
+    height: 60vh;
+    color: #fff;
+    overflow: auto;
+}
+
+
+
+@media (max-width:1000px){
+    .container{
+        width: 100%;
+    }
+}

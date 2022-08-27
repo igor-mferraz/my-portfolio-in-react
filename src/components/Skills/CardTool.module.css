@@ -1,0 +1,14 @@
+.tool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 10px;
+    margin: 10px;
+    width: 220px;
+    height: 200px;
+}
+.tool img{
+    width: 120px;
+}
