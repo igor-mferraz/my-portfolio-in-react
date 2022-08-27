@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 50vh;
+}
+.sobre_mim{
+    flex-direction: column;
+    
+}
+.sobre_mim_img img{
+    width: 400px;
+    border-radius: 200px;
+}
+.mais img{
+    padding-top: 100px;
+    width: 50px;
+    animation: pisca 2s infinite linear;
+}
+
+@media (max-width:1000px){
+    .container{
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+        
+    }
+}
+@keyframes pisca{
+    0%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+}

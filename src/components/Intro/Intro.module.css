@@ -1,0 +1,58 @@
+.container{
+    background-color: #111;
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.typewriter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222;
+    padding: 0 15%;
+    height: 40vh;
+}
+.typewriter h1 {
+    color: #fff;
+    font-size: 1.5em;
+}
+.mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.mais div{
+    background-image: url(../../imgs/computer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.mais button{
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+}
+.mais button:hover{
+    border: 2px solid #111;
+}
+
+@media (max-width:1000px){
+    .container{
+        width: 100%;
+    }
+}
