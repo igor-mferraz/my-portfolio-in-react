@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    background-color: #111;
+}
 .container{
     display: flex;
     background-color: #111;
@@ -9,16 +12,17 @@
     height: 100vh;
     margin: auto;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
+
 .description{
     margin-top: 20px;
-    border: 1px solid red;
+    border: 1px solid #8b0000;
 }
 .description h1{
     text-align: center;
     color: #fff;
+    width: auto;
 }
 .skills{
     display: flex;
@@ -31,6 +35,8 @@
     height: 60vh;
     color: #fff;
     overflow: auto;
+    padding: 50px 0px;
+
 }
 
 

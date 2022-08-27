@@ -6,7 +6,8 @@ function CardTool ({img,conhecimento,altImg}){
     return( 
         <div className={styles.tool}>
             <img src={img} alt={altImg}></img>
-            <div>Conhecimento: <span>{conhecimento}</span></div>
+            <p>{altImg}</p>
+            <div>Conhecimento:<br></br><span>{conhecimento}</span></div>
         </div>
         
     )

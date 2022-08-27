@@ -5,8 +5,9 @@ import ImgCalc from '../../imgs/calc.png'
 
 function Projects (){
     return(
-        <div className={styles.container}>
-            <div className={styles.content_Projects}>
+        <div className={styles.body}>
+            <div className={styles.container}>
+                <div className={styles.content_Projects}>
                 <Card 
                 title="Simulador de financiamento" 
                 link="https://igormferraz.github.io/Simulador-de-Financiamento/"
@@ -16,7 +17,9 @@ function Projects (){
 
                 
                 
+                </div>
             </div>
+        
         </div>
         
     )

@@ -21,7 +21,8 @@ function Intro (){
     },[])
 
     return(
-        <div className={styles.container}>
+        <div className={styles.body}>
+            <div className={styles.container}>
             <div className={styles.typewriter}>
                <h1 id="titulo">Seja bem vindo!
                Meu nome é Igor, sou desenvolvedor Front-End!
@@ -33,7 +34,9 @@ function Intro (){
                   <button>Ver Mais</button>  
                 </div>
             </div>
+            </div>
         </div>
+        
         
     )
 }

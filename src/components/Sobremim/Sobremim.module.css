@@ -41,8 +41,13 @@
         width: 100%;
     }
     .content{
-        flex-direction: column;
-        
+        flex-direction: column;   
+    }
+    .mais{
+        display: none;
+    }
+    .sobre_mim_img img{
+        width: 250px;
     }
 }
 @keyframes pisca{
