@@ -4,6 +4,17 @@
 }
 .body{
     background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 15px;
+}
+.body h1{
+    color: #fff;
+    text-align: center;
+    
 }
 .container{
     display: flex;
@@ -11,7 +22,7 @@
     justify-content: center;
     background-color: #000;
     width: 1000px;
-    height: 100vh;
+    
     margin: auto;
     display: flex;
     
@@ -19,13 +30,14 @@
 .content_Projects{
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 400px;
     background-image: url("../../imgs/programming-g15347181d_640.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid red;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #8b0000;
     overflow: hidden;
     
 }
@@ -35,9 +47,15 @@
     
 }
 
-.setaLeft{
+.setaLeft, .setaRight{
     margin: 10px;
     color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    opacity: 0.7;
+}
+.setaLeft:hover, .setaRight:hover{
+    opacity: 1;
 }
 
 @media (max-width:1000px){

@@ -3,12 +3,13 @@ import styles from './Projects.module.css'
 import Card from './Card'
 import img from '../../imgs/calc.png'
 import { projetos } from "./ProjetosObjetos"
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
 
 function Projects (){
     const [scrollX, setScrollX] = useState(0)
     const moverParaDireita = ()=>{
         let x = scrollX - 240
-        let listlargura = (projetos.length -2) * 240
+        let listlargura = (projetos.length -1) * 240
         let fimList = listlargura - listlargura - listlargura
         //que gambiarra kkk
             if(x < fimList){
@@ -30,19 +31,22 @@ function Projects (){
 
     return(
         <div className={styles.body}>
+            <h1>Meus projetos</h1>
             <div className={styles.container}>
-                <div onClick={moverParaEsquerda} className={styles.setaLeft}>...</div>
-
+                <div onClick={moverParaEsquerda} className={styles.setaLeft}><AiOutlineArrowLeft/></div>
                     <div className={styles.content_Projects}>
-                        
+
                         <div className={styles.movieRow} style={{marginLeft: scrollX}}>
+
                             {projetos.map((item,key)=>(
                                 <Card key={key} titulo={item.titulo} link={item.link} img={item.img}/>
                             ))}
+
                         </div>
+
                     </div>
                 <div onClick={moverParaDireita} 
-                 className={styles.setaLeft}>...</div>
+                 className={styles.setaRight}><AiOutlineArrowRight/></div>
             </div>
         
         </div>
