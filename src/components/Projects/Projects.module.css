@@ -14,25 +14,31 @@
     height: 100vh;
     margin: auto;
     display: flex;
-    flex-direction: column;
     
 }
 .content_Projects{
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 80%;
     height: 400px;
-    overflow: hidden;
     background-image: url("../../imgs/programming-g15347181d_640.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border: 1px solid red;
+    overflow: hidden;
+    
+}
+.movieRow{
+    display: flex;
+    transition: all ease 0.5s;
     
 }
 
-
+.setaLeft{
+    margin: 10px;
+    color: #fff;
+}
 
 @media (max-width:1000px){
     .container{

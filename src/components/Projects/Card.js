@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Card.module.css'
-function Card({img,title,desc,link}){
+
+
+function Card({img,titulo,link}){
     return(
             <div className={styles.card}>
 
@@ -9,7 +11,7 @@ function Card({img,title,desc,link}){
                 </div>
 
                 <div className={styles.title}>
-                    <p>{title}</p>
+                    <p>{titulo}</p>
                 </div>
                 
                 <div className={styles.page}>

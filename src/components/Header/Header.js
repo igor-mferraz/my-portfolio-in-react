@@ -5,7 +5,10 @@ import { MenuMobile } from "./MenuMobile"
 function Header (){
     const [menu, setMenu] = useState(false)
     function menuOpen(){
-        setMenu(!menu)
+        if(window.innerWidth < 1000){
+            setMenu(!menu)
+        }
+        
     }
 
     return(
