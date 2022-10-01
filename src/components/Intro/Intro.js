@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from "react"
 import styles from './Intro.module.css'
-
+import {Link} from 'react-scroll'
 
 function Intro (){
 
@@ -31,7 +31,9 @@ function Intro (){
             </div>
             <div className={styles.mais}>
                 <div>
-                  <button>Ver Mais</button>  
+                    <button>
+                        <Link to="sobremim" spy={true} smooth={true} offset={0} duration={700}> Saiba Mais</Link>
+                    </button>  
                 </div>
             </div>
             </div>

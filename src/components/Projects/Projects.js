@@ -30,7 +30,7 @@ function Projects (){
 
 
     return(
-        <div className={styles.body}>
+        <div id="projects" className={styles.body}>
             <h1>Meus projetos</h1>
             <div className={styles.container}>
                 <div onClick={moverParaEsquerda} className={styles.setaLeft}><AiOutlineArrowLeft/></div>

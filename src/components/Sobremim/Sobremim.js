@@ -4,7 +4,7 @@ import img_sobre_mim from '../../imgs/programador.png'
 import img_arrow_bottom from '../../imgs/arrow_bottom.png'
 function Sobremim (){
     return(
-        <div className={styles.container}>
+        <div id="sobremim" className={styles.container}>
             <div className={styles.content}>
                 <section className={styles.sobre_mim}>
                     <p>

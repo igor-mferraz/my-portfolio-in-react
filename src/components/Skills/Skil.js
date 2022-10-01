@@ -6,47 +6,29 @@ import logoCSS from './imgs/logo-css.png'
 import logoTS from './imgs/logo-ts.png'
 import logoGitGitHub from './imgs/git-github.png'
 import bancoDeDados from './imgs/banco-de-dados.png'
-
 import logoReact from './imgs/logo-react.png'
 
+import  {tools} from './Tool'
 import { TiStarOutline,TiStar } from "react-icons/ti";
+import Card from '../Projects/Card'
+
 function Skil (){
     return(
-    <div className={styles.body}>
+    <div id='skills' className={styles.body}>
         <div className={styles.container}>
             <div className={styles.description}>
                 <h1>Minhas habilidades</h1>
             </div>
             <div className={styles.skills}>
-                <CardTool
-                    img={logoHTML} altImg="HTML" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStar/> <TiStar/></>}
-
-                />
-                <CardTool
-                    img={logoCSS} altImg="CSS" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStar/> <TiStar/></> }
-                />
-                <CardTool
-                    img={logoJS} altImg="JavaScript" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStarOutline/> <TiStarOutline/> </>}
-                />
-                <CardTool
-                    img={logoTS} altImg="TypeScript" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStarOutline/> <TiStarOutline/> <TiStarOutline/> </>}
-                />
-                <CardTool
-                    img={logoGitGitHub} altImg="Git/GitHub" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStarOutline/> <TiStarOutline/> </>}
-                />
-                <CardTool
-                    img={logoReact} altImg="React" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStarOutline/> <TiStarOutline/> </>}
-                />
-                <CardTool
-                    img={bancoDeDados} altImg="Banco de Dados" 
-                    conhecimento={<><TiStar/> <TiStar/> <TiStar/> <TiStarOutline/> <TiStarOutline/> </>}
-                />
+                {
+                    tools.map((item,key)=>(
+                        <CardTool key={key}
+                            conhecimento={item.conhecimento}
+                            altImg = {item.tool}
+                            img = {item.img}
+                        />
+                    ))
+                }
                 
                 
                 

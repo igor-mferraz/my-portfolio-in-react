@@ -6,6 +6,9 @@
  import Projects from "./components/Projects/Projects"
  import Skil from "./components/Skills/Skil"
  import './App.css'
+import { Footer } from "./components/Footer/Footer"
+
+
  export default ()=>{
     return(
       <>
@@ -14,6 +17,7 @@
         <Sobremim/>
         <Projects/>
         <Skil/>
+        <Footer/>
       </>
       
       

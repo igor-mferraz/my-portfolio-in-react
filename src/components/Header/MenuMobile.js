@@ -1,11 +1,20 @@
 import styles from './MenuMobile.module.css'
+import { Link } from 'react-scroll'
 export const MenuMobile = () =>{
     return(
         <ul className={styles.menu}>
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Meus Projetos</a></li>
-            <li><a href="#">Minhas Skills</a></li>
-            <li><a href="#">Contato</a></li>
+            <li>
+                <Link to="sobremim" spy={true} smooth={true} offset={0} duration={700} >Sobre mim</Link>
+            </li>
+            <li>
+                <Link to="projects" spy={true} smooth={true} offset={0} duration={700} >Meus Projetos</Link>
+            </li>
+            <li>
+                <Link to="skills" spy={true} smooth={true} offset={0} duration={700} >Minhas Skills</Link>
+            </li>
+            <li>
+                <Link to="footer" spy={true} smooth={true} offset={0} duration={700} >Contato</Link>
+            </li>
         </ul>
     )
 }
