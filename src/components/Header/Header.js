@@ -11,19 +11,23 @@ function Header (){
         }
     }
 
+    function clickAndClose(){
+           setMenu(false) 
+    }
+
     return(
         <div className={styles.container}>
             <header className={styles.header}>     
                 <div className={styles.logo} onClick={menuOpen}> </div> 
                     {menu === true &&
-                        <MenuMobile/>
+                        <MenuMobile close={clickAndClose}/>
                     }
                 <ul className={styles.menu}>
-                    <li>
-                        <Link to="sobremim" spy={true} smooth={true} offset={-10} duration={700} >Sobre mim</Link>
+                    <li onClick={clickAndClose}>
+                        <Link to="sobremim" spy={true} smooth={true} offset={-10} duration={700}  >Sobre mim</Link>
                     </li>
                     <li>
-                        <Link to="projects" spy={true} smooth={true} offset={-75} duration={700} >Meus Projetos</Link>
+                        <Link to="projects" spy={true} smooth={true} offset={-100} duration={700} >Meus Projetos</Link>
                     </li>
                     <li>
                         <Link to="skills" spy={true} smooth={true} offset={-100} duration={700} >Minhas Skills</Link>

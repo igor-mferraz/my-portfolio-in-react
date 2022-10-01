@@ -8,7 +8,7 @@ function Sobremim (){
             <div className={styles.content}>
                 <section className={styles.sobre_mim}>
                     <p>
-                    Apaixonado por tecnologia e inovação, estudo programação front-end, meu papel como desenvolvedor é planejar, desenvolver e fazer manuntenção em interfaces gráfica,tanto no quesito estetico quanto funcional!  
+                    Entusiasta por tecnologia, estudo programação front-end, meu papel como desenvolvedor é planejar, desenvolver e fazer manuntenção em interfaces gráfica,tanto no quesito estetico quanto funcional!  
                     Aqui no meu portifolio mostro alguns projetos que criei!
                     </p>
                     <div className={styles.mais}>
