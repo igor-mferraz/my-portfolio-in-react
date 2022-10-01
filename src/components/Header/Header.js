@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import styles from './Header.module.css'
 import { MenuMobile } from "./MenuMobile"
 import {Link} from 'react-scroll'
@@ -13,13 +13,8 @@ function Header (){
 
     return(
         <div className={styles.container}>
-            <header className={styles.header}>
-                
-                    <Link to="/" spy={true} smooth={true} offset={0} duration={700}>
-                        <div className={styles.logo} onClick={menuOpen}> </div> 
-                    </Link>
-                
-                    
+            <header className={styles.header}>     
+                <div className={styles.logo} onClick={menuOpen}> </div> 
                     {menu === true &&
                         <MenuMobile/>
                     }
@@ -31,7 +26,7 @@ function Header (){
                         <Link to="projects" spy={true} smooth={true} offset={-75} duration={700} >Meus Projetos</Link>
                     </li>
                     <li>
-                        <Link to="skills" spy={true} smooth={true} offset={-75} duration={700} >Minhas Skills</Link>
+                        <Link to="skills" spy={true} smooth={true} offset={-100} duration={700} >Minhas Skills</Link>
                     </li>
                     <li>
                         <Link to="footer" spy={true} smooth={true} offset={0} duration={700} >Contato</Link>

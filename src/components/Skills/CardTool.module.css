@@ -18,6 +18,10 @@
     min-height: 100px;
 }
 .tool div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 50px;
 }
 .tool p{

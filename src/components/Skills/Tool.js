@@ -1,48 +1,58 @@
+import logoHTML from './imgs/logo-html.png'
+import logoCSS from './imgs/logo-css.png'
+import logoJS from './imgs/logo-javascript.png'
+import logoTS from './imgs/logo-ts.png'
+import logoGit from './imgs/git-github.png'
+import logoReact from './imgs/logo-react.png'
+import logoBancoDeDados from './imgs/banco-de-dados.png'
+import logoTw from './imgs/logo-tw.png'
+import logoStyled from './imgs/logo-styled.png'
+import { TiStarOutline,TiStar } from "react-icons/ti";
 
 export const tools = [
     {
         tool: 'HTML',
-        conhecimento: 100,
-        img: './imgs/logo-css.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStar/></> ,
+        img: logoHTML
     },
     {
         tool: 'CSS',
-        conhecimento: 100,
-        img:'https://logospng.org/download/css-3/logo-css-3-2048.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStar/></>,
+        img: logoCSS
     },
     {
         tool: 'JavaScript',
-        conhecimento: 60,
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoJS
     },
     {
         tool: 'TypeScript',
-        conhecimento: 40,
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png'
+        conhecimento: <><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/><TiStarOutline/></>,
+        img: logoTS
     },
     {
         tool: 'Git/ GitHub',
-        conhecimento: 60,
-        img:'https://alyssonmach.github.io/Minicurso-Git-e-GitHub/img/5.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoGit
     },
     {
         tool: 'React',
-        conhecimento: 60,
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoReact
     },
     {
         tool: 'Banco de Dados',
-        conhecimento: 60,
-        img: 'https://img1.gratispng.com/20171221/pkw/database-free-download-png-5a3c4268919c92.9648820315138986005964.jpg'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoBancoDeDados
     },
     {
         tool: 'Tailwind',
-        conhecimento: 60,
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoTw
     },
     {
         tool: 'Styled Components',
-        conhecimento: 60,
-        img:'https://styled-components.com/atom.png'
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoStyled
     }
 ]

@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react"
 import styles from './CardTool.module.css'
 
 function CardTool ({img,conhecimento,altImg}){
@@ -7,7 +6,10 @@ function CardTool ({img,conhecimento,altImg}){
         <div className={styles.tool}>
             <img src={img} alt={altImg}></img>
             <p>{altImg}</p>
-            <div>Conhecimento:<br></br><span>{conhecimento}</span></div>
+            <div>
+                <p>Conhecimento:</p> 
+                <span>{conhecimento}</span>
+            </div>
         </div>
         
     )

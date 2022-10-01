@@ -22,10 +22,12 @@
     border-bottom: 1px solid #8b0000;
 }
 .logo{
-    background-color: #8b0000;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    background-image: url('../../imgs/logodev.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
     margin-left: 16px;
     cursor: pointer;
 }
@@ -59,6 +61,11 @@ li:hover{
     }
     .menu{
         display: none;
+    }
+    .logo{
+        background-image: url('../../imgs/menu.png');
+        width: 50px;
+        height: 50px;
     }
 }
 
