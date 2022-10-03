@@ -14,7 +14,7 @@ export const projetos = [
     {
         titulo:'App previsão do tempo',
         img: logoAppTempo,
-        link: logoAppTempo
+        link: 'https://app-clima-js.vercel.app/'
     },
     {
         titulo:'Formulario',
