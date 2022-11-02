@@ -3,6 +3,7 @@ import logoAppTempo from '../../imgs/tempo.png'
 import logoForm from '../../imgs/form.png'
 import logoProducao from '../../imgs/caixa.png'
 import logoMemoria from '../../imgs/memory.png'
+import logoIMC from '../../imgs/powered.png'
 
 
 export const projetos = [
@@ -15,6 +16,11 @@ export const projetos = [
         titulo:'App previsão do tempo',
         img: logoAppTempo,
         link: 'https://app-clima-js.vercel.app/'
+    },
+    {
+        titulo:'Calculadora de IMC',
+        img: logoIMC,
+        link: 'https://react-calculadora-imc-chi.vercel.app/'
     },
     {
         titulo:'Formulario',
