@@ -30,5 +30,5 @@ export const projetos = [
         titulo:'Sistema de estoque (em desenvolvimento)',
         img: logoProducao,
         link: logoProducao
-    },
+    }
 ]
