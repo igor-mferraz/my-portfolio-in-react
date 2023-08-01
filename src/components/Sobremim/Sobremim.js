@@ -8,8 +8,7 @@ function Sobremim (){
             <div className={styles.content}>
                 <section className={styles.sobre_mim}>
                     <p>
-                    Entusiasta por tecnologia, estudo programação front-end, meu papel como desenvolvedor é planejar, desenvolver e fazer manuntenção em interfaces gráfica,tanto no quesito estetico quanto funcional!  
-                    Aqui no meu portifolio mostro alguns projetos que criei!
+                    Sou programador com foco no desenvolvimento web. Tenho conhecimento em linguagens JavaScript, TypeScript além de frameworks populares como React, Next.<br/> Minha principal habilidade é criar interfaces responsivas e intuitivas, garantindo uma ótima experiência do usuário. Além disso, estou familiarizado com conceitos de design web, como usabilidade e acessibilidade. Trabalho em conjunto com equipes de design e backend para criar sites e aplicativos web de alta qualidade, sempre buscando soluções eficientes e escaláveis. Estou constantemente atualizando meu conhecimento para acompanhar as tendências e tecnologias emergentes no campo do desenvolvimento web.
                     </p>
                     <div className={styles.mais}>
                         <img src={img_arrow_bottom}></img>

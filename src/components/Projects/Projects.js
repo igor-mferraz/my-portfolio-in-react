@@ -11,13 +11,10 @@ function Projects (){
         let x = scrollX - 240
         let listlargura = (projetos.length -1) * 240
         let fimList = listlargura - listlargura - listlargura
-        //que gambiarra kkk
             if(x < fimList){
                 x = 0
             }
         setScrollX(x)
-        console.log(fimList)
- 
     }
     const moverParaEsquerda = ()=>{
         let x = scrollX + 240
@@ -25,7 +22,6 @@ function Projects (){
             x=0
         }
         setScrollX(x)
-        console.log(scrollX)
     }
 
 

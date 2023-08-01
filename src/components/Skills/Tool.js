@@ -4,10 +4,12 @@ import logoJS from './imgs/logo-javascript.png'
 import logoTS from './imgs/logo-ts.png'
 import logoGit from './imgs/git-github.png'
 import logoReact from './imgs/logo-react.png'
+import logoNext from './imgs/nextjs.png'
 import logoBancoDeDados from './imgs/banco-de-dados.png'
 import logoTw from './imgs/logo-tw.png'
 import logoStyled from './imgs/logo-styled.png'
 import { TiStarOutline,TiStar } from "react-icons/ti";
+
 
 export const tools = [
     {
@@ -22,12 +24,12 @@ export const tools = [
     },
     {
         tool: 'JavaScript',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStarOutline/></>,
         img: logoJS
     },
     {
         tool: 'TypeScript',
-        conhecimento: <><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
         img: logoTS
     },
     {
@@ -37,8 +39,13 @@ export const tools = [
     },
     {
         tool: 'React',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStarOutline/></>,
         img: logoReact
+    },
+    {
+        tool: 'Next',
+        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        img: logoNext
     },
     {
         tool: 'Banco de Dados',
