@@ -8,58 +8,58 @@ import logoNext from './imgs/nextjs.png'
 import logoBancoDeDados from './imgs/banco-de-dados.png'
 import logoTw from './imgs/logo-tw.png'
 import logoStyled from './imgs/logo-styled.png'
-import { TiStarOutline,TiStar } from "react-icons/ti";
+
 
 
 export const tools = [
     {
         tool: 'HTML',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStar/></> ,
+        conhecimento: 5 ,
         img: logoHTML
     },
     {
         tool: 'CSS',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStar/></>,
+        conhecimento: 5,
         img: logoCSS
     },
     {
         tool: 'JavaScript',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoJS
     },
     {
         tool: 'TypeScript',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoTS
     },
     {
         tool: 'Git/ GitHub',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoGit
     },
     {
         tool: 'React',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStar/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoReact
     },
     {
         tool: 'Next',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoNext
     },
     {
         tool: 'Banco de Dados',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 3,
         img: logoBancoDeDados
     },
     {
         tool: 'Tailwind',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoTw
     },
     {
         tool: 'Styled Components',
-        conhecimento: <><TiStar/><TiStar/><TiStar/><TiStarOutline/><TiStarOutline/></>,
+        conhecimento: 4,
         img: logoStyled
     }
 ]

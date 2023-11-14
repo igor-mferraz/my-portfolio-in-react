@@ -1,6 +1,19 @@
-import styles from './CardTool.module.css'
+import styles from './CardTool.module.css';
+import { TiStarOutline,TiStar } from "react-icons/ti";
 
-function CardTool ({img,conhecimento,altImg}){
+function CardTool ({img, conhecimento ,altImg}){
+
+    const stars = () => {
+        const stars = []
+        for(let i = 0; i < conhecimento; i++){
+            stars.push(<TiStar/>) 
+        }
+        for(let i = 0; i < (5 - conhecimento); i++){
+            stars.push(<TiStarOutline/>) 
+        }
+        return stars
+    }
+
 
     return( 
         <div className={styles.tool}>
@@ -8,7 +21,9 @@ function CardTool ({img,conhecimento,altImg}){
             <p>{altImg}</p>
             <div>
                 <p>Conhecimento:</p> 
-                <span>{conhecimento}</span>
+                <span>
+                    {stars()}
+                </span>
             </div>
         </div>
         

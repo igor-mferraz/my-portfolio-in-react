@@ -5,12 +5,12 @@ import TypeWriter from "../TypeWriter/TypeWriter"
 
 function Intro() {
     return (
-        <div className={styles.body}>
+        <div className={styles.bodyIntro}>
             <div className={styles.container}>
                 <div className={styles.typewriter}>
-                    <h1 id="titulo">
+                    <div className={styles.typewriterText}>
                         <TypeWriter texto={"Olá, seja bem vindo! Meu nome é Igor sou Programador Jr!"}/>
-                    </h1>
+                    </div>
                 </div>
                 <div className={styles.mais}>
                     <div>

@@ -17,8 +17,11 @@ function Header (){
 
     return(
         <div className={styles.container}>
-            <header className={styles.header}>     
-                <div className={styles.logo} onClick={menuOpen}> </div> 
+            <header className={styles.header}>    
+
+                <div className={styles.logo} onClick={menuOpen}> 
+                
+                </div> 
                     {menu === true &&
                         <MenuMobile close={clickAndClose}/>
                     }
