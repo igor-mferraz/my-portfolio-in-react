@@ -8,7 +8,11 @@ function Sobremim (){
             <div className={styles.content}>
                 <section className={styles.sobre_mim}>
                     <p>
-                    Sou programador com foco no desenvolvimento web. Tenho conhecimento em linguagens JavaScript, TypeScript além de frameworks populares como React, Next.<br/> Minha principal habilidade é criar interfaces responsivas e intuitivas, garantindo uma ótima experiência do usuário. Além disso, estou familiarizado com conceitos de design web, como usabilidade e acessibilidade. Trabalho em conjunto com equipes de design e backend para criar sites e aplicativos web de alta qualidade, sempre buscando soluções eficientes e escaláveis. Estou constantemente atualizando meu conhecimento para acompanhar as tendências e tecnologias emergentes no campo do desenvolvimento web.
+                    Sou programador full stack com foco no desenvolvimento web. <br/>
+                    Tenho conhecimento em linguagens JavaScript, TypeScript além de frameworks populares como React, Next.<br/>
+                    Além disso, estou familiarizado com backend utilizando Express e Nest, para criar APIs, utilizando junto ORMs como Prisma e Sequelize para fazer conexão com banco de dados. 
+                    <br/>
+                    Estou constantemente atualizando meu conhecimento para acompanhar as tecnologias e melhorias de codigo , buscando sempre conceitos e boas praticas.
                     </p>
                     <div className={styles.mais}>
                         <img src={img_arrow_bottom}></img>

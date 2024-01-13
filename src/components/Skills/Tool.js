@@ -8,58 +8,61 @@ import logoNext from './imgs/nextjs.png'
 import logoBancoDeDados from './imgs/banco-de-dados.png'
 import logoTw from './imgs/logo-tw.png'
 import logoStyled from './imgs/logo-styled.png'
-
-
+import nodeJS from './imgs/nodejs.jpg'
+import prisma from './imgs/prisma.jpg'
+import sequelize from './imgs/sequelize-logo.png'
 
 export const tools = [
     {
         tool: 'HTML',
-        conhecimento: 5 ,
         img: logoHTML
     },
     {
         tool: 'CSS',
-        conhecimento: 5,
         img: logoCSS
     },
     {
         tool: 'JavaScript',
-        conhecimento: 4,
         img: logoJS
     },
     {
         tool: 'TypeScript',
-        conhecimento: 4,
         img: logoTS
     },
     {
         tool: 'Git/ GitHub',
-        conhecimento: 4,
         img: logoGit
     },
     {
         tool: 'React',
-        conhecimento: 4,
         img: logoReact
     },
     {
         tool: 'Next',
-        conhecimento: 4,
         img: logoNext
     },
     {
         tool: 'Banco de Dados',
-        conhecimento: 3,
         img: logoBancoDeDados
     },
     {
         tool: 'Tailwind',
-        conhecimento: 4,
         img: logoTw
     },
     {
         tool: 'Styled Components',
-        conhecimento: 4,
         img: logoStyled
+    },
+    {
+        tool: 'Node JS',
+        img: nodeJS
+    },
+    {
+        tool: 'Prisma ORM',
+        img: prisma
+    },
+    {
+        tool: 'Sequelize ORM',
+        img: sequelize
     }
 ]

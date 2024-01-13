@@ -13,7 +13,6 @@ function Skil (){
                 {
                     tools.map((item,key)=>(
                         <CardTool key={key}
-                            conhecimento={item.conhecimento}
                             altImg = {item.tool}
                             img = {item.img}
                         />

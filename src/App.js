@@ -19,7 +19,5 @@ import { Footer } from "./components/Footer/Footer"
         <Skil/>
         <Footer/>
       </>
-      
-      
     )
  }

@@ -9,7 +9,7 @@ function Intro() {
             <div className={styles.container}>
                 <div className={styles.typewriter}>
                     <div className={styles.typewriterText}>
-                        <TypeWriter texto={"Olá, seja bem vindo! Meu nome é Igor sou Programador Jr!"}/>
+                        <TypeWriter texto={"Olá, seja bem vindo! Meu nome é Igor sou Desenvolvedor Full Stack!"}/>
                     </div>
                 </div>
                 <div className={styles.mais}>
